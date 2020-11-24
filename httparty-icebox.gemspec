@@ -12,9 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Caching for HTTParty}
   s.description = %q{Cache responses in HTTParty models}
 
-  s.rubyforge_project = "httparty-icebox"
-
-  s.add_dependency("httparty", "~> 0.9.0")
+  s.add_dependency("httparty", "~> 0.9")
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
